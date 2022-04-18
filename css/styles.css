@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'SansSerit';
+}
+
+.nav-container {
+    background-color: #38AF90;
+    height: 90px;
+    width: 100%;
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-main a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-main img {
+    width: 62px;
+    height: 62px;
+    margin: 4px 0;
+}
+
+.nav-brand {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    margin: 14.5px;
+}
