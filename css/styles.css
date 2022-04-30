@@ -128,3 +128,190 @@ body {
     border-radius: 8px;
     border: #DD7E92;
 }
+
+#games {
+    background-color: #F0F0F0;
+    padding: 40px 0px;
+}
+
+.title-games {
+    margin: 0px 0px 14px 0px;
+    color: #38AF90;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.games-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 14px 0px;
+}
+
+.game-item {
+    width: calc(100% - 30px);
+    height: 168px;
+    border-radius: 8px 8px 0px 0px;
+    margin: 0px 15px;
+}
+
+.card-games-description {
+    border-radius: 0px 0px 8px 8px;
+    width: calc(100% - 30px);
+    height: 158px;
+    background-color: white;
+    text-align: center;
+}
+
+.card-games-description h4 {
+    margin: 0px;
+    margin-top: 28px;
+    color: #797979;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-games-description p {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #38AF90;
+}
+
+.card-games-description h2 {
+    margin: 15px 0px;
+    color: #38AF90;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#Register {
+    background-color: white;
+    margin: 40px 10px;
+}
+
+.title-register {
+    margin: 0px 0px 16px 0px;
+    color: #797979;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form-container {
+    width: calc(100% + 16px);
+    max-width: 790px;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+    padding: 0px 8px 23px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.register-name {
+    margin: 52px 0px 20px 0px;
+}
+
+#ctrl-name {
+    width: 280px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.register-email {
+    margin-bottom: 20px;
+}
+
+#ctrl-email {
+    width: 280px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.label-content {
+    size: 16px;
+    color: #797979;
+}
+
+.button-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.send-description input {
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: #DD7E92;
+    border: #DD7E92;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px 26px;
+}
+
+.erase-description input {
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: white;
+    border: solid 2px #DD7E92;
+    color: #DD7E92;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px 26px;
+}
+
+footer {
+    background-color: #383838;
+    height: 302;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.social-footer {
+    margin: 28px 0px 37px 0px;
+}
+
+.social-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-content p {
+    color: white;
+    font-size: 14px;
+}
+
+.footer-description {
+    margin-bottom: 30px;
+}
+
+.footer-description p {
+    margin: 5px 0px;
+}
+
+.footer-description1 p {
+    margin-bottom: 32px;
+}
+
+@media(min-width: 768px) {}

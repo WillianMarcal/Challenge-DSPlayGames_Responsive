@@ -20,13 +20,12 @@
         <nav class="container nav-main">
             <a class="nav-brand" href="">DSPlayGames</a>
 
-            <!--
-               <ul class="menu-items">
+            <ul class="menu-items">
                 <li><a href="#news">News</a></li>
                 <li><a href="#games">Games</a></li>
                 <li><a href="#register">Register</a></li>
             </ul>
-        -->
+
             <img src="img/profile.svg" alt="my profile">
         </nav>
     </header>
@@ -72,17 +71,111 @@
 
         </section>
 
-        <section>
+        <section id="games">
+            <h2 class="title-games">Games</h2>
+            <div class="games-container container">
+                <div class="card-games">
+                    <img class="game-item" src="img/game.png" alt="horizon forbiden west">
+                    <div class="card-games-description">
+                        <h4>Horizon Forbiden West</h4>
+                        <p>From Sony Interactive Entertainment</p>
+                        <h2>9.7</h2>
+                    </div>
+                </div>
 
+
+                <div class="card-games">
+                    <img class="game-item" src="img/game.png" alt="horizon forbiden west">
+                    <div class=" game-item card-games-description">
+                        <h4>Horizon Forbiden West</h4>
+                        <p>From Sony Interactive Entertainment</p>
+                        <h2>9.7</h2>
+                    </div>
+                </div>
+
+                <div class="card-games">
+                    <img class="game-item" src="img/game.png" alt="horizon forbiden west">
+                    <div class="game item card-games-description">
+                        <h4>Horizon Forbiden West</h4>
+                        <p>From Sony Interactive Entertainment</p>
+                        <h2>9.7</h2>
+                    </div>
+                </div>
         </section>
 
-        <section>
+        <section id="Register">
+            <h2 class="title-register">Register</h2>
 
+            <form class="form-container " action="thanks.html">
+                <div class=>
+                    <div class="register-name">
+                        <label for="ctrl-name"></label>
+                        <input id="ctrl-name" type="text" name="name" placeholder="ful Name">
+                    </div>
+
+                    <div class="register-email">
+                        <label for="ctrl-email"></label>
+                        <input id="ctrl-email" type="text" name="email" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="label-content">
+                    <label for="ctrl-plataform">What's your favorite platform?</label>
+                    <div id="ctrl-plataform">
+                        <input type="radio" name="plataform" id="ctrl-plataform-1">
+                        <label for="ctrl-plataform-1">PC</label>
+                    </div>
+                    <div id="ctrl-plataform">
+                        <input type="radio" name="plataform" id="ctrl-plataform-2">
+                        <label for="ctrl-plataform-2">Xbox</label>
+                    </div>
+                    <div id="ctrl-plataform">
+                        <input type="radio" name="plataform" id="ctrl-plataform-3">
+                        <label for="ctrl-plataform-3">Playstation</label>
+                    </div><br>
+
+                    <div id="ctrl-news">
+                        <input id="ctrl-news" name="news" type="checkbox">
+                        <label for="ctrl-news">I wish to receive news.</label>
+                    </div>
+                    <br>
+
+                </div>
+
+                <div class="button-content">
+                    <div class="send-description">
+                        <input type="submit" value="Send">
+                    </div>
+
+                    <div class="erase-description">
+                        <input type="reset" value="Erase">
+                    </div>
+                </div>
+            </form>
         </section>
     </main>
 
     <footer>
+        <div class="footer-content container">
+            <div class="social-footer">
+                <div>
+                    <a href="#">@DSPlayGames</a>
+                </div>
+                <div>
+                    <a href="#">/DSPlayGames</a>
+                </div>
 
+            </div>
+
+            <div class="footer-description1">
+                <p>DS Play Games Ltda. Todos direitos reservados</p>
+            </div>
+
+            <div class="footer-description">
+                <p>Política de privacidade</p>
+                <p>Termos de uso</p>
+            </div>
+        </div>
     </footer>
 
 </body>
