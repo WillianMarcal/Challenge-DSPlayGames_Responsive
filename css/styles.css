@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html,
@@ -15,6 +16,7 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 26px;
+    box-shadow: 0px 5px 5px gray;
 }
 
 .container {
@@ -26,13 +28,12 @@ body {
 .nav-main {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
-.nav-main a {
+.nav-main li a {
     color: white;
-    text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .nav-main img {
@@ -42,12 +43,14 @@ body {
 }
 
 .nav-brand {
+    margin-right: auto;
     font-size: 18px;
     font-weight: 700;
+    color: white;
 }
 
 .menu-items {
-    display: flex;
+    display: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -77,6 +80,7 @@ body {
     padding: 16px 12px;
     background-color: #F0F0F0;
     border-radius: 8px;
+    box-shadow: 0px 5px 5px gray;
 }
 
 .card-news-description h3 {
@@ -168,6 +172,7 @@ body {
     height: 158px;
     background-color: white;
     text-align: center;
+    box-shadow: 0px 5px 8px gray;
 }
 
 .card-games-description h4 {
@@ -192,9 +197,9 @@ body {
     font-weight: 700;
 }
 
-#Register {
+#register {
     background-color: white;
-    margin: 40px 10px;
+    margin: 40px 8px;
 }
 
 .title-register {
@@ -210,11 +215,13 @@ body {
     max-width: 790px;
     margin: 0 auto;
     background-color: #F0F0F0;
-    padding: 0px 8px 23px 0;
+    padding: 0px 0px 23px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    border-radius: 8px;
+    box-shadow: 0px 5px 8px gray;
 }
 
 .register-name {
@@ -225,6 +232,9 @@ body {
     width: 280px;
     height: 50px;
     border-radius: 4px;
+    font-size: 16px;
+    color: #C4C4C4;
+    padding: 13px 128px 13px 22px;
 }
 
 .register-email {
@@ -235,6 +245,9 @@ body {
     width: 280px;
     height: 50px;
     border-radius: 4px;
+    font-size: 16px;
+    color: #C4C4C4;
+    padding: 13px 128px 13px 22px;
 }
 
 .label-content {
@@ -276,15 +289,16 @@ body {
 
 footer {
     background-color: #383838;
-    height: 302;
+    height: 302px;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
-    align-items: center;
+    height: 302px;
 }
 
 .social-footer {
@@ -293,7 +307,6 @@ footer {
 
 .social-footer a {
     color: white;
-    text-decoration: none;
     font-size: 14px;
 }
 
@@ -314,4 +327,64 @@ footer {
     margin-bottom: 32px;
 }
 
-@media(min-width: 768px) {}
+@media(min-width: 768px) {
+    .nav-brand {
+        font-size: 18px;
+    }
+    .menu-items {
+        display: flex;
+    }
+    .nav-brand {
+        font-size: 24px;
+    }
+    .container-news h2 {
+        font-size: 36px;
+        margin: 0px 0px 40px 0px;
+    }
+    .card-news-description h3 {
+        font-size: 24px;
+    }
+    .card-news-description h4 {
+        font-size: 16px;
+    }
+    .title-games {
+        margin: 0px 0px 45px 0px;
+        font-size: 36px;
+    }
+    #games {
+        padding: 36px 0px 70px 0px;
+    }
+    .title-register {
+        margin: 0px 0px 40px 0px;
+        font-size: 36px;
+    }
+    #ctrl-name {
+        width: 642px;
+    }
+    #ctrl-email {
+        width: 642px;
+    }
+    .label-content {
+        margin-right: 405px;
+    }
+    .form-container {
+        padding: 0px 0px 42px 0;
+    }
+    .footer-content {
+        flex-direction: row;
+        height: 190px;
+        align-items: center;
+    }
+    footer {
+        height: 190px;
+    }
+    .social-footer {
+        margin: 75px 0px;
+    }
+    .footer-description1 p {
+        margin: 32px 0px;
+    }
+    .footer-description {
+        margin: 75px 0px;
+    }
+}
